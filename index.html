@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love You Kristinochka</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .background-container {
+            background-image: url('babochka_tsvety_chernyj_fon_74198_1280x720.jpg');
+            background-size: cover; /* Заполняет всю доступную область */
+            background-position: center; /* Центрирует изображение */
+            height: 100%; /* Занимает всю высоту страницы */
+            display: flex;
+            justify-content: center; /* Выравнивание по горизонтали */
+            align-items: center; /* Выравнивание по вертикали */
+            text-align: center; /* Выравнивание текста по центру */
+            font-family: 'Pixelify Sans', sans-serif;
+            color: rgb(255, 255, 255); /* Цвет текста */
+            position: relative; /* Добавлено, чтобы позиционировать изображение */
+        }
+        h1 {
+            font-size: 30px; /* Изменяет размер текста заголовка */
+            height: 430px; /* Изменяет высоту блока заголовка */
+            z-index: 1; /* Помещает текст над изображением */
+            position: absolute; /* Помещает текст над изображением */
+            top: 50%; /* Помещает текст в верхней половине изображения */
+            left: 50%; /* Помещает текст в центре по горизонтали */
+            transform: translate(-50%, -50%); /* Центрирует текст */
+        }
+        .gif-image {
+            position: absolute; /* Абсолютное позиционирование */
+            top: 50%; /* Размещение по вертикали в центре */
+            left: 50%; /* Размещение по горизонтали в центре */
+            transform: translate(-50%, -50%); /* Центрирование изображения */
+            max-width: 30%; /* Установка ширины изображения */
+        }
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <h1>люблю тебя зайка</h1>
+        <!-- Добавьте путь к вашей скачанной гифке в атрибут src -->
+        <img class="img" src="11302201442193655.gif" alt="Your GIF"> 
+    </div>
+</body>
+</html>
